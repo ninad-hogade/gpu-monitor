@@ -1,0 +1,1565 @@
+Using model: /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+NVML initialized successfully.
+Timeout expired while querying vLLM server for model name.
+NVML shut down successfully.
+Tracking vLLM server PID: 575846 with model: vllm-Unknown
+NVML initialized successfully.
+Number of GPUs detected: 1
+Monitoring target PID: 584315
+
+=== GPU Process Debug Information ===
+
+GPU 0: NVIDIA A100X
+GPU Utilization: 0%
+Memory Used: 73331.25 MB
+
+Compute Processes:
+  PID 575846: python (Memory: 72552.00 MB)
+
+=== End Debug Information ===
+
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.964, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.85, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.866, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.948, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.851, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.964, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.965, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 71.256, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.851, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.753, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.964, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.964, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.949, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.766, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 71.062, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.866, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.978, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 71.283, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.672, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.864, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.964, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 71.935, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 71.075, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.851, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.766, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.978, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.949, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.965, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.753, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.964, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.964, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.978, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.88, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.864, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.685, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.948, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.753, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.864, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 71.062, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.766, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.978, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.88, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.88, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.964, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.753, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.782, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.766, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 71.062, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.964, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.88, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.88, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.864, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.851, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.782, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.655, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.668, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.753, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.782, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.753, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.668, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.867, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.766, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 71.253, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.88, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.769, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.88, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.671, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.753, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Collected GPU metrics: [{'pid': 575846, 'process_name': 'vllm-Unknown', 'gpu_index': 0, 'gpu_name': 'NVIDIA A100X', 'gpu_memory_used_MB': 72552.0, 'gpu_utilization_percent': 0, 'gpu_memory_utilization_percent': 89.51568603515625, 'power_usage_W': 70.964, 'inst_gflops': 0.0}]
+
+Process 584315 info:
+Command line: /bin/sh -c python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.00036387974956885935
+Collected GPU metrics: [{'pid': 584315, 'process_name': 'sh', 'message': 'No GPU usage detected for PID 584315'}]
+
+Process 584316 info:
+Command line: python3 /HSC/users/hogade/funcWatch/vllm_inference_task.py /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B
+Status: sleeping
+CPU %: 0.0
+Memory %: 0.010346314212741235
+Collected GPU metrics: [{'pid': 584316, 'process_name': 'python3', 'message': 'No GPU usage detected for PID 584316'}]
+Monitoring interrupted by user.
+Summary metrics written to LOGS/20250228_123246_hsc-11_vllm-Unknown_NVIDIA A100X_0_summary_metrics.json:
+{
+    "host_name": "hsc-11",
+    "elapsed_time_s": 43.89,
+    "avg_gflops": 0.0,
+    "avg_gpu_memory_used_MB": 72552.0,
+    "average_gpu_utilization_percent": 0.0,
+    "average_gpu_memory_utilization_percent": 89.51568603515625,
+    "average_cpu_usage_percent": 1.126056338028169,
+    "average_memory_usage_percent": 2.1999999999999944,
+    "total_energy_Wh": 61.346925494444434,
+    "peak_power_W": 71.935,
+    "pid": 575846,
+    "process_name": "vllm-Unknown"
+}

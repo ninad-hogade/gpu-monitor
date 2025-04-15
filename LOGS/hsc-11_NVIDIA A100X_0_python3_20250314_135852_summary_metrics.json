@@ -1,0 +1,14 @@
+{
+    "host_name": "hsc-11",
+    "elapsed_time_s": 13.59,
+    "avg_gflops": 23322.0,
+    "avg_gpu_memory_used_MB": 13472.6,
+    "average_gpu_utilization_percent": 59.8,
+    "average_gpu_memory_utilization_percent": 17.38995361328125,
+    "average_cpu_usage_percent": 63.14,
+    "average_memory_usage_percent": 0.20800000000000002,
+    "total_energy_Wh": 0.2743176388888889,
+    "peak_power_W": 270.596,
+    "pid": 660285,
+    "process_name": "python3"
+}
