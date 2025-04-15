@@ -1,0 +1,40 @@
+#install uv and vllm
+curl -LsSf https://astral.sh/uv/install.sh | sh
+uv venv vllm_env --python 3.12 --seed
+source ~/vllm_env/bin/activate
+uv pip install vllm
+
+#install funcwatch/gpu-monitor
+pip install /HSC/users/hogade/funcWatch/.
+
+****************************************************************************************
+curl http://localhost:8000/v1/models
+
+#start vllm server
+python /HSC/users/hogade/funcWatch/inference_vllm/vllm_ex/server_vllm.py
+
+
+#start infernece-experiment
+cd /HSC/users/hogade/funcWatch/inference_vllm/
+
+python vllm_inference.py
+
+****************************************************************************************
+
+
+cd /HSC/users/hogade/funcWatch/inference_vllm/vllm_ex/
+
+pip uninstall gpu-monitor -y && pip install .
+
+python -m vllm.entrypoints.openai.api_server --model /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Qwen-1.5B --port 8000
+python -m vllm.entrypoints.openai.api_server --model /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-70B --port 8000
+python -m vllm.entrypoints.openai.api_server --model /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Qwen-32B --port 8000
+python -m vllm.entrypoints.openai.api_server --model /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Qwen-14B --port 8000
+python -m vllm.entrypoints.openai.api_server --model /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Llama-8B --port 8000
+python -m vllm.entrypoints.openai.api_server --model /HSC/users/hogade/huggingface_models/DeepSeek-R1-Distill-Qwen-7B --port 8000
+python -m vllm.entrypoints.openai.api_server --model /HSC/users/hogade/huggingface_models/phi-4 --port 8000
+python -m vllm.entrypoints.openai.api_server --model /HSC/users/hogade/huggingface_models/Llama-3.2-1B --port 8000
+python -m vllm.entrypoints.openai.api_server --model /HSC/users/hogade/huggingface_models/Llama-3.2-1B-Instruct --port 8000
+python -m vllm.entrypoints.openai.api_server --model /HSC/users/hogade/huggingface_models/Llama-3.2-3B-Instruct --port 8000
+python -m vllm.entrypoints.openai.api_server --model /HSC/users/hogade/huggingface_models/Llama-3.3-70B-Instruct --port 8000
+
